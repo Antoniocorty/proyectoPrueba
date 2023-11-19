@@ -24,6 +24,7 @@ public class MyServlet2 extends HttpServlet {
 
 
 		out.println("<h1>XXX Bienvenido!! " + request.getParameter("nombre") + "</h1>");
+		out.println("<label>Tu nombre es "+request.getQueryString()+" </label><br><br>");
 	}
 
 }
