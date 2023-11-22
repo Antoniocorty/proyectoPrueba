@@ -19,12 +19,12 @@ public class MyServlet2 extends HttpServlet {
 
 		// send HTML page to client
 		out.println("<html>");
-		out.println("<head><title>XXX Ejemplo HTML desde Servlet</title></head>");
+		out.println("<head><title>Prueba de selvlets</title></head>");
 		out.println("<body>");
 
 
-		out.println("<h1>XXX Bienvenido!! " + request.getParameter("nombre") + "</h1>");
-		out.println("<label>Tu nombre es "+request.getQueryString()+" </label><br><br>");
+		out.println("<h1>Bienvenido don " + request.getParameter("lape") + "</h1>");
+		out.println("<label>Tu nombre es "+request.getParameter("lname")+" </label><br><br>");
 	}
 
 }
